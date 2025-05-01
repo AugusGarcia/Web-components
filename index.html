@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/components/nav/nav.css" />
+    <link rel="stylesheet" href="/pages/style.css" />
+    <link rel="stylesheet" href="/components/card/card.css">
+    <link rel="stylesheet" href="/components/button/button.css">
+    <link rel="stylesheet" href="/components/footer/footer.css">
+    <script defer src="/components/nav/nav.js"></script>
+    <script defer src="/components/card/card.js"></script>
+    <script defer src="/components/footer/footer.js"></script>
+    <script defer src="/pages/index.js"></script>
+    <title>Inicio</title>
+  </head>
+  <body>
+    <header class="navbar"></header>
+    <section class="main">
+      <div class="main__content">
+        <h1 class="main__content-title"></h1>
+        <img class="main__content-img" src="" alt="main-foto" />
+      </div>
+    </section>
+    <section class="presentation">
+      <div class="presentation__content">
+        <div class="presentation__content-container">
+         <h1 class="presentation__content-title"></h1>
+         <p class="presentation__content-text"></p>
+        </div>
+        <img src="" alt="presentation-foto" class="presentation__content-img" />
+      </div>
+    </section>
+    <section class="cards-container">
+      <h1 class="cards-container-title">Mis <span class="cards-container-title-blue">servicios</span></h1>
+      <div class="cards"></div>
+    </section>
+    <template id="card-template">
+      <div class="card">
+        <img src="" alt="" class="card-img" />
+        <div class="card-content">
+          <h4 class="card-title"></h4>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </template>
+    <section class="contact">
+      <h1 class="contact_title">Escribime</h1>
+      <form action="/" class="form">
+        <div class="form__fieldset">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+        </div>
+        <div class="form__fieldset">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Email" required>
+        </div>
+        <div class="form__fieldset">
+          <label for="mensaje">Mensaje</label>
+          <textarea name="mensaje" id="mensaje" placeholder="Escriba su mensaje " required></textarea>
+        </div>
+        <button type="submit" class="form__submit">Enviar <img src="./img/submit-icon.png" alt="Sumbit icon"></button>
+        <p class="send-message"></p>
+      </form>
+    </section>
+    <section class="footer"></section>
+  </body>
+</html>
