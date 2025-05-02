@@ -56,7 +56,7 @@
 /* Estilos de Services*/
 
 .cards-container {
-  background-image: url(/img/bg.png);
+  background-image: url(/src/img/bg.png);
   background-color: #13171c;
   padding-top: 100px;
   padding-bottom: 50px;
