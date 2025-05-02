@@ -4,7 +4,7 @@ function navComponent(el) {
   componenteEl.innerHTML = `
       <nav>
         <div class="nav">
-          <a href="/" class="nav__logo">
+          <a href="index.html" class="nav__logo">
             <img src="img/logo-personal.jpg" alt="logo" class="nav__logo-img"/>
           </a>
           <span class="abrir-ventana">
@@ -12,18 +12,18 @@ function navComponent(el) {
           </span>
         <div class="nav__desktop">
           <ul class="nav__links">
-           <li class="nav__link"><a href="./portfolio.html">Portfolio</a></li>
-           <li class="nav__link"><a href="./servicios.html">Servicios</a></li>
-           <li class="nav__link"><a href="./contacto.html">Contacto</a></li>
+           <li class="nav__link"><a href="portfolio.html">Portfolio</a></li>
+           <li class="nav__link"><a href="servicios.html">Servicios</a></li>
+           <li class="nav__link"><a href="contacto.html">Contacto</a></li>
           </ul>
          </div>
         </div>
         <div class="ventana">
           <span class="ventana__cerrar">X</span>
           <ul class="ventana__contenido">
-            <li class="ventana__contenido-item"><a href="/portfolio.html">Portfolio</a></li>
-            <li class="ventana__contenido-item"><a href="/servicios.html">Servicios</a></li>
-            <li class="ventana__contenido-item"><a href="/contacto.html">Contacto</a></li>
+            <li class="ventana__contenido-item"><a href="portfolio.html">Portfolio</a></li>
+            <li class="ventana__contenido-item"><a href="servicios.html">Servicios</a></li>
+            <li class="ventana__contenido-item"><a href="contacto.html">Contacto</a></li>
           </ul>
         </div>
       </nav>
