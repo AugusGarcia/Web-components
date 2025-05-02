@@ -12,7 +12,7 @@ function footer(container) {
       <nav class="footer__socials">
         <a href="" target="_blank"><img src="./src/img/Frame 24.png"
             alt="Linkeding link"></a>
-        <a href="" target="_blank"><img src="./src/img/img/Frame 26.png"
+        <a href="" target="_blank"><img src="./src/img/Frame 26.png"
             alt="Twitter link"></a>
         <a href="" target="_blank"><img src="./src/img/Frame 27.png"
             alt="Github link"></a>
