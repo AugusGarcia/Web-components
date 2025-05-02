@@ -4,8 +4,8 @@ function navComponent(el) {
   componenteEl.innerHTML = `
       <nav>
         <div class="nav">
-          <a href="/src/index.html" class="nav__logo">
-            <img src="/src/img/logo-personal.jpg" alt="logo" class="nav__logo-img"/>
+          <a href="./src/index.html" class="nav__logo">
+            <img src="./src/img/logo-personal.jpg" alt="logo" class="nav__logo-img"/>
           </a>
           <span class="abrir-ventana">
             <img src="/src/img/menu.png" alt="menu" class="nav__logo-menu"/>
@@ -21,9 +21,9 @@ function navComponent(el) {
         <div class="ventana">
           <span class="ventana__cerrar">X</span>
           <ul class="ventana__contenido">
-            <li class="ventana__contenido-item"><a href="/src/portfolio.html">Portfolio</a></li>
-            <li class="ventana__contenido-item"><a href="/src/servicios.html">Servicios</a></li>
-            <li class="ventana__contenido-item"><a href="/src/contacto.html">Contacto</a></li>
+            <li class="ventana__contenido-item"><a href="/portfolio.html">Portfolio</a></li>
+            <li class="ventana__contenido-item"><a href="/servicios.html">Servicios</a></li>
+            <li class="ventana__contenido-item"><a href="/contacto.html">Contacto</a></li>
           </ul>
         </div>
       </nav>
