@@ -5,10 +5,10 @@ function navComponent(el) {
       <nav>
         <div class="nav">
           <a href="/" class="nav__logo">
-            <img src="../../../img/logo-personal.jpg" alt="logo" class="nav__logo-img"/>
+            <img src="img/logo-personal.jpg" alt="logo" class="nav__logo-img"/>
           </a>
           <span class="abrir-ventana">
-            <img src="../../../img/menu.png" alt="menu" class="nav__logo-menu"/>
+            <img src="img/menu.png" alt="menu" class="nav__logo-menu"/>
           </span>
         <div class="nav__desktop">
           <ul class="nav__links">
